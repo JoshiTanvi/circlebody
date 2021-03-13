@@ -36,10 +36,10 @@ function draw() {
   rectMode(CENTER);
   background("white");
   drawSprites();
- 
+ 	 g1.display();
   b1.display();
   i1.display();
-  g1.display();
+ 
   C1.display();
   sb1.display();
   sc1.display();
