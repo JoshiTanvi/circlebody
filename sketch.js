@@ -36,7 +36,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background("white");
+  background("pink");
   drawSprites();
  	 g1.display();
   b1.display();
