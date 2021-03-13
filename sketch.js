@@ -20,10 +20,10 @@ function setup() {
 
 
 	Engine.run(engine);
-
+	g1 = new gr(400, 700);
 	b1 = new box(20, 20, 80, 30);
 	i1 = new iron(500, 550, 100, 100)
-	g1 = new gr(400, 700);
+	
 	C1 = new circel(300, 20);
 	sb1 = new sbox(300, 300, 50, 50);
 	sc1 = new scircel(100, 300);
