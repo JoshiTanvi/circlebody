@@ -27,6 +27,8 @@ function setup() {
 	C1 = new circel(300, 20);
 	sb1 = new sbox(300, 300, 50, 50);
 	sc1 = new scircel(100, 300);
+	
+	console.log(C1)
 
 
 }
