@@ -7,7 +7,7 @@ class scircel {
         'density':1.0,
        // 'isStatic': true
     }
-  this.body = Bodies.circle(x, y, 20, options)
+  this.body = Bodies.circle(x, y, 20)
   //this.daimeter = d
 
   World.add(world, this.body);
@@ -19,8 +19,8 @@ display() {
     push();
     rectMode(CENTER)
       fill("red");
-      translate(this.body.position.x, this.body.position.y);
-      rotate(this.body.angle);
+      //translate(this.body.position.x, this.body.position.y);
+      //rotate(this.body.angle);
       circle(this.body.position.x,this.body.position.y, 20);
       pop();
     }
